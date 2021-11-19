@@ -1,0 +1,102 @@
+body {
+    background-image: url(../Imágenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.bebas {
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.open {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.reciclar {
+    font-size: 63px;
+    color:rgb(2, 41, 2);
+}
+
+.open-padre{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    background-color: chartreuse;
+    
+    
+}
+a{
+border-style: solid;
+
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color:rgb(7, 2, 73);
+    border-style: double;
+    border-width: medium;
+}
+a:hover{
+  background-color: #afca16;
+  border-style: ridge;
+  border-width: thick;
+  
+}
+
+
+
+.instagram{
+    font-size: 45px;
+    color:rgb(185, 21, 185)
+}
+
+.facebook{
+    font-size: 45px;
+    color:rgb(42, 88, 238)
+}
+
+.twitter{
+    font-size: 45px;
+    color: rgb(100, 164, 237);
+}
+
+.padre{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+
+    
+}
+
+.caja{
+    float: right;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+aside{
+    float:right;
+}
+
+
+.padrefooter{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    
+}
+
+.card{
+    width: 550px;
+    display:inline-block;
+}
